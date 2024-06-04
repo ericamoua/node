@@ -1,60 +1,60 @@
 [
     {
-        "employeeID": "E001",
+        "employeeID": 1,
         "name": "John Summit",
         "salary": 60000,
         "department": "Engineering"
     },
     {
-        "employeeID": "E002",
+        "employeeID": 2,
         "name": "Patrick Gary",
         "salary": 65000,
         "department": "Marketing"
     },
     {
-        "employeeID": "E003",
+        "employeeID": 3,
         "name": "Robert Johnson",
         "salary": 70000,
         "department": "Sales"
     },
     {
-        "employeeID": "E004",
+        "employeeID": 4,
         "name": "Illenium Moua",
         "salary": 75000,
         "department": "Human Resources"
     },
     {
-        "employeeID": "E005",
+        "employeeID": 5,
         "name": "Spong Bob",
         "salary": 80000,
         "department": "Finance"
     },
     {
-        "employeeID": "E006",
+        "employeeID": 6,
         "name": "William Black",
         "salary": 72000,
         "department": "Customer Support"
     },
     {
-        "employeeID": "E007",
+        "employeeID": 7,
         "name": "Excision Moua",
         "salary": 68000,
         "department": "Engineering"
     },
     {
-        "employeeID": "E008",
+        "employeeID": 8,
         "name": "Naruto Tanjiro",
         "salary": 71000,
         "department": "Marketing"
     },
     {
-        "employeeID": "E009",
+        "employeeID": 9,
         "name": "Akamaru MuMu",
         "salary": 67000,
         "department": "Sales"
     },
     {
-        "employeeID": "E010",
+        "employeeID": 10,
         "name": "Nezuko Seria",
         "salary": 76000,
         "department": "Human Resources"
