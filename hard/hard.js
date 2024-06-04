@@ -15,14 +15,26 @@ app.get('/employees', (req, res) => {
             return;
         }
 
+        
         try {
             const employees = JSON.parse(data);
             res.json(employees);
+            console.log(employees[0])
         } catch (parseErr) {
             console.error('Error parsing JSON:', parseErr);
             res.status(500).send('Internal Server Error');
         }
     });
+});
+
+app.get('/employeeID/:employeeID', (req, res) => {
+    const employeeID = parseInt(req.params.employeeID);
+    const employee = employees.find(emp => emp.employeeID === employeeID);
+    if  (!employee) {
+        return res.status(404).json({ error: 'Employee not found'});
+    }
+
+    red.json(employee);
 });
 
 // Start the server
